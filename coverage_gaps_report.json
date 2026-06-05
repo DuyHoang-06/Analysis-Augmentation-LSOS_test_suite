@@ -1,0 +1,16 @@
+{
+  "module": "./django_repo/django/contrib/auth/views.py",
+  "node_coverage_percent": 30.77,
+  "total_gaps": 9,
+  "untested_functions": [
+    "get_form_class",
+    "get_success_url_allowed_hosts",
+    "dispatch",
+    "form_valid",
+    "get_redirect_url",
+    "get_user",
+    "get_form_kwargs",
+    "get_success_url",
+    "get_context_data"
+  ]
+}

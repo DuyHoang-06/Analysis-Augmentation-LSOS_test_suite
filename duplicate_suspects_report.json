@@ -1,0 +1,2228 @@
+[
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_empty",
+    "test_2": "test_render_string",
+    "similarity_score": 99.97
+  },
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_empty",
+    "test_2": "test_render_invalid_date",
+    "similarity_score": 99.93
+  },
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_string",
+    "test_2": "test_render_invalid_date",
+    "similarity_score": 99.93
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_formats",
+    "test_2": "test_localized_formats",
+    "similarity_score": 99.77
+  },
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_empty",
+    "test_2": "test_custom_months",
+    "similarity_score": 99.65
+  },
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_string",
+    "test_2": "test_custom_months",
+    "similarity_score": 99.63
+  },
+  {
+    "test_class": "SelectDateWidgetTest",
+    "test_1": "test_render_invalid_date",
+    "test_2": "test_custom_months",
+    "similarity_score": 99.59
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sort",
+    "test_2": "test_sort",
+    "similarity_score": 99.26
+  },
+  {
+    "test_class": "ProxyModelWithDifferentAppLabelTests",
+    "test_1": "test_user_has_now_proxy_model_permissions",
+    "test_2": "test_user_keeps_same_permissions_after_migrating_backward",
+    "similarity_score": 99.05
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_dateTimeField_with_inputformat",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 98.83
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_dateTimeField_with_inputformat",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 98.59
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_dateField_with_inputformat",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 98.47
+  },
+  {
+    "test_class": "ProxyModelWithSameAppLabelTests",
+    "test_1": "test_user_still_has_proxy_model_permissions",
+    "test_2": "test_user_keeps_same_permissions_after_migrating_backward",
+    "similarity_score": 98.45
+  },
+  {
+    "test_class": "GenericIPAddressFieldTest",
+    "test_1": "test_generic_ipaddress_as_generic",
+    "test_2": "test_generic_ipaddress_as_generic_not_required",
+    "similarity_score": 98.37
+  },
+  {
+    "test_class": "CheckboxSelectMultipleTest",
+    "test_1": "test_render_value",
+    "test_2": "test_render_value_multiple",
+    "similarity_score": 98.24
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_create_model_constraint_percent_escaping",
+    "test_2": "test_add_constraint_percent_escaping",
+    "similarity_score": 98.17
+  },
+  {
+    "test_class": "GenericIPAddressFieldTest",
+    "test_1": "test_generic_ipaddress_as_generic",
+    "test_2": "test_generic_ipaddress_as_ipv6_only",
+    "similarity_score": 98.16
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_dateField_with_inputformat",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 98.12
+  },
+  {
+    "test_class": "FileBackendTests",
+    "test_1": "test_multiple_messages_same_connection_single_file_reused",
+    "test_2": "test_reopening_connection_uses_same_file",
+    "similarity_score": 97.92
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_dateTimeField_with_inputformat",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 97.89
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_timeField_with_inputformat",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 97.76
+  },
+  {
+    "test_class": "CustomTimeInputFormatsTests",
+    "test_1": "test_timeField_with_inputformat",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 97.67
+  },
+  {
+    "test_class": "GeoLite2Test",
+    "test_1": "test_country",
+    "test_2": "test_country_using_city_database",
+    "similarity_score": 97.33
+  },
+  {
+    "test_class": "ExceptionReporterTests",
+    "test_1": "test_reporting_frames_without_source",
+    "test_2": "test_reporting_frames_source_not_match",
+    "similarity_score": 97.29
+  },
+  {
+    "test_class": "TestGeneralAggregate",
+    "test_1": "test_array_agg_filter_index",
+    "test_2": "test_array_agg_filter_slice",
+    "similarity_score": 97.27
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_dateField_with_inputformat",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 97.25
+  },
+  {
+    "test_class": "Jinja2Tests",
+    "test_1": "test_exception_debug_info_min_context",
+    "test_2": "test_template_render_nested_error",
+    "similarity_score": 97.17
+  },
+  {
+    "test_class": "UpdateViewTests",
+    "test_1": "test_update_post",
+    "test_2": "test_update_get_object",
+    "similarity_score": 97.09
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_autoescape",
+    "test_2": "test_autoescape",
+    "similarity_score": 97.0
+  },
+  {
+    "test_class": "BaseModelBackendTest",
+    "test_1": "test_anonymous_has_no_permissions",
+    "test_2": "test_inactive_has_no_permissions",
+    "similarity_score": 96.86
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_one_locale_excluded_with_locale",
+    "test_2": "test_multiple_locales_excluded_with_locale",
+    "similarity_score": 96.81
+  },
+  {
+    "test_class": "HTTPSitemapTests",
+    "test_1": "test_alternate_i18n_sitemap_index",
+    "test_2": "test_alternate_i18n_sitemap_xdefault",
+    "similarity_score": 96.67
+  },
+  {
+    "test_class": "SimpleTimeFormatTests",
+    "test_1": "test_timeField_with_inputformat",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 96.6
+  },
+  {
+    "test_class": "RoundTests",
+    "test_1": "test_integer",
+    "test_2": "test_integer_with_precision",
+    "similarity_score": 96.55
+  },
+  {
+    "test_class": "AutodetectorTests",
+    "test_1": "test_partly_alter_unique_together_increase",
+    "test_2": "test_partly_alter_unique_together_decrease",
+    "similarity_score": 96.54
+  },
+  {
+    "test_class": "GenericIPAddressFieldTest",
+    "test_1": "test_generic_ipaddress_as_ipv6_only",
+    "test_2": "test_generic_ipaddress_as_generic_not_required",
+    "similarity_score": 96.47
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_autoescape_off",
+    "test_2": "test_autoescape_off",
+    "similarity_score": 96.46
+  },
+  {
+    "test_class": "ContentTypesTests",
+    "test_1": "test_get_for_models_creation",
+    "test_2": "test_get_for_models_empty_cache",
+    "similarity_score": 96.42
+  },
+  {
+    "test_class": "HTTPSitemapTests",
+    "test_1": "test_alternate_i18n_sitemap_xdefault",
+    "test_2": "test_alternate_language_for_item_i18n_sitemap",
+    "similarity_score": 96.39
+  },
+  {
+    "test_class": "CheckboxSelectMultipleTest",
+    "test_1": "test_separate_ids",
+    "test_2": "test_separate_ids_constructor",
+    "similarity_score": 96.36
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_comments_by_pk_gt",
+    "test_2": "test_filter_comments_by_pk_gte",
+    "similarity_score": 96.18
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_comments_by_pk_lt",
+    "test_2": "test_filter_comments_by_pk_lte",
+    "similarity_score": 96.18
+  },
+  {
+    "test_class": "RadioSelectTest",
+    "test_1": "test_choices_select_outer",
+    "test_2": "test_choices_select_inner",
+    "similarity_score": 96.16
+  },
+  {
+    "test_class": "TestCollectionClear",
+    "test_1": "test_verbosity_1",
+    "test_2": "test_verbosity_2",
+    "similarity_score": 96.12
+  },
+  {
+    "test_class": "TimeFieldTest",
+    "test_1": "test_timefield_1",
+    "test_2": "test_timefield_3",
+    "similarity_score": 96.1
+  },
+  {
+    "test_class": "AutodetectorTests",
+    "test_1": "test_remove_generated_field_before_multiple_base_fields",
+    "test_2": "test_remove_generated_field_and_one_of_multiple_base_fields",
+    "similarity_score": 96.03
+  },
+  {
+    "test_class": "HTTPSitemapTests",
+    "test_1": "test_alternate_i18n_sitemap_index",
+    "test_2": "test_alternate_language_for_item_i18n_sitemap",
+    "similarity_score": 96.03
+  },
+  {
+    "test_class": "ImmediateBackendTestCase",
+    "test_1": "test_enqueue_logs",
+    "test_2": "test_failed_logs",
+    "similarity_score": 96.03
+  },
+  {
+    "test_class": "MemoryStorageIOTests",
+    "test_1": "test_write_string",
+    "test_2": "test_convert_str_to_bytes_and_back",
+    "similarity_score": 96.03
+  },
+  {
+    "test_class": "LoaderTests",
+    "test_1": "test_loader_priority",
+    "test_2": "test_cached_loader_priority",
+    "similarity_score": 95.98
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 95.9
+  },
+  {
+    "test_class": "ChrTests",
+    "test_1": "test_basic",
+    "test_2": "test_non_ascii",
+    "similarity_score": 95.83
+  },
+  {
+    "test_class": "TestRFC3987IEncodingUtils",
+    "test_1": "test_uri_to_iri",
+    "test_2": "test_complementarity",
+    "similarity_score": 95.83
+  },
+  {
+    "test_class": "OptimizerTests",
+    "test_1": "test_create_model_add_index",
+    "test_2": "test_create_model_remove_index",
+    "similarity_score": 95.79
+  },
+  {
+    "test_class": "CompositePKOrderByTests",
+    "test_1": "test_order_comments_by_pk_asc",
+    "test_2": "test_order_comments_by_pk_desc",
+    "similarity_score": 95.71
+  },
+  {
+    "test_class": "ExcludedLocaleExtractionTests",
+    "test_1": "test_one_locale_excluded_with_locale",
+    "test_2": "test_multiple_locales_excluded_with_locale",
+    "similarity_score": 95.67
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested",
+    "test_2": "test_nested3",
+    "similarity_score": 95.6
+  },
+  {
+    "test_class": "TestUUID",
+    "test_1": "test_uuid4",
+    "test_2": "test_uuid7",
+    "similarity_score": 95.54
+  },
+  {
+    "test_class": "CheckboxSelectMultipleTest",
+    "test_1": "test_render_value",
+    "test_2": "test_render_none",
+    "similarity_score": 95.53
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_users_by_comments_lt",
+    "test_2": "test_filter_users_by_comments_lte",
+    "similarity_score": 95.53
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 95.45
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested",
+    "test_2": "test_nested_multiple",
+    "similarity_score": 95.39
+  },
+  {
+    "test_class": "CompositePKAggregateTests",
+    "test_1": "test_users_annotated_with_comments_count",
+    "test_2": "test_users_annotated_with_comments_count_filter",
+    "similarity_score": 95.38
+  },
+  {
+    "test_class": "ExceptionReporterTests",
+    "test_1": "test_request_and_message",
+    "test_2": "test_message_only",
+    "similarity_score": 95.35
+  },
+  {
+    "test_class": "FilteredAggregateTests",
+    "test_1": "test_filtered_aggregate_empty_condition",
+    "test_2": "test_filtered_aggregate_full_condition",
+    "similarity_score": 95.32
+  },
+  {
+    "test_class": "TupleLookupsTests",
+    "test_1": "test_lt",
+    "test_2": "test_lte",
+    "similarity_score": 95.3
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField",
+    "similarity_score": 95.27
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_users_by_comments_gt",
+    "test_2": "test_filter_users_by_comments_gte",
+    "similarity_score": 95.16
+  },
+  {
+    "test_class": "SelectMultipleTest",
+    "test_1": "test_render_selected",
+    "test_2": "test_render_multiple_selected",
+    "similarity_score": 95.13
+  },
+  {
+    "test_class": "BasicExtractorTests",
+    "test_1": "test_invalid_locale_uppercase",
+    "test_2": "test_invalid_locale_hyphen",
+    "similarity_score": 95.11
+  },
+  {
+    "test_class": "CompositePKCreateTests",
+    "test_1": "test_get_or_create_user",
+    "test_2": "test_update_or_create_user",
+    "similarity_score": 95.11
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 95.07
+  },
+  {
+    "test_class": "FormsErrorMessagesTestCase",
+    "test_1": "test_charfield",
+    "test_2": "test_regexfield",
+    "similarity_score": 95.03
+  },
+  {
+    "test_class": "GenericViewsSitemapTests",
+    "test_1": "test_get_protocol_defined_in_constructor",
+    "test_2": "test_get_protocol_passed_as_argument",
+    "similarity_score": 95.02
+  },
+  {
+    "test_class": "TestNumberFormat",
+    "test_1": "test_format_number",
+    "test_2": "test_format_string",
+    "similarity_score": 94.99
+  },
+  {
+    "test_class": "CompositePKDeleteTests",
+    "test_1": "test_delete_tenant_by_pk",
+    "test_2": "test_delete_user_by_pk",
+    "similarity_score": 94.97
+  },
+  {
+    "test_class": "TestGeneralAggregate",
+    "test_1": "test_array_agg_charfield_order_by",
+    "test_2": "test_jsonb_agg_charfield_order_by",
+    "similarity_score": 94.96
+  },
+  {
+    "test_class": "ExecutorTests",
+    "test_1": "test_unrelated_model_lookups_forwards",
+    "test_2": "test_unrelated_model_lookups_backwards",
+    "similarity_score": 94.93
+  },
+  {
+    "test_class": "CheckboxSelectMultipleTest",
+    "test_1": "test_render_value_multiple",
+    "test_2": "test_render_none",
+    "similarity_score": 94.87
+  },
+  {
+    "test_class": "ExceptionReporterTests",
+    "test_1": "test_request_and_exception",
+    "test_2": "test_no_request",
+    "similarity_score": 94.85
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField",
+    "similarity_score": 94.83
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sort_list_of_tuples",
+    "test_2": "test_sort_list_of_tuples",
+    "similarity_score": 94.81
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sort_list_of_tuple_like_dicts",
+    "test_2": "test_sort_list_of_tuple_like_dicts",
+    "similarity_score": 94.81
+  },
+  {
+    "test_class": "TwoImageFieldTests",
+    "test_1": "test_constructor",
+    "test_2": "test_assignment",
+    "similarity_score": 94.81
+  },
+  {
+    "test_class": "TestAsPrimaryKey",
+    "test_1": "test_update_with_related_model_instance",
+    "test_2": "test_update_with_related_model_id",
+    "similarity_score": 94.75
+  },
+  {
+    "test_class": "ValuesExpressionsTests",
+    "test_1": "test_values_expression_group_by",
+    "test_2": "test_chained_values_with_expression",
+    "similarity_score": 94.73
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_one_locale_excluded",
+    "test_2": "test_multiple_locales_excluded",
+    "similarity_score": 94.68
+  },
+  {
+    "test_class": "TestInteractiveMessages",
+    "test_1": "test_warning_when_clearing_staticdir",
+    "test_2": "test_warning_when_overwriting_files_in_staticdir",
+    "similarity_score": 94.68
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_comments_by_pk_in_subquery",
+    "test_2": "test_filter_comments_by_pk_exact_subquery",
+    "similarity_score": 94.66
+  },
+  {
+    "test_class": "CompositePKDeleteTests",
+    "test_1": "test_delete_user_by_pk",
+    "test_2": "test_delete_comments_by_user",
+    "similarity_score": 94.64
+  },
+  {
+    "test_class": "MultiDatabaseTests",
+    "test_1": "test_read_only_methods_add_view",
+    "test_2": "test_read_only_methods_add_view",
+    "similarity_score": 94.64
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_multiple_locales_excluded",
+    "test_2": "test_one_locale_excluded_with_locale",
+    "similarity_score": 94.61
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_multiple_locales_excluded",
+    "test_2": "test_multiple_locales_excluded_with_locale",
+    "similarity_score": 94.61
+  },
+  {
+    "test_class": "RoundTests",
+    "test_1": "test_decimal",
+    "test_2": "test_decimal_with_precision",
+    "similarity_score": 94.6
+  },
+  {
+    "test_class": "DatabaseCreationTests",
+    "test_1": "test_clone_test_db_subprocess_mysqldump_error",
+    "test_2": "test_clone_test_db_subprocess_mysql_error",
+    "similarity_score": 94.59
+  },
+  {
+    "test_class": "RemoveStaleContentTypesTests",
+    "test_1": "test_contenttypes_removed_in_installed_apps_without_models",
+    "test_2": "test_contenttypes_removed_for_apps_not_in_installed_apps",
+    "similarity_score": 94.54
+  },
+  {
+    "test_class": "RegexFieldTest",
+    "test_1": "test_regexfield_1",
+    "test_2": "test_regexfield_3",
+    "similarity_score": 94.52
+  },
+  {
+    "test_class": "TablespacesTests",
+    "test_1": "test_tablespace_for_indexed_field",
+    "test_2": "test_tablespace_for_many_to_many_field",
+    "similarity_score": 94.52
+  },
+  {
+    "test_class": "SmartIfTests",
+    "test_1": "test_in",
+    "test_2": "test_not_in",
+    "similarity_score": 94.51
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_autoescape",
+    "test_2": "test_autoescape",
+    "similarity_score": 94.47
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested3",
+    "test_2": "test_nested_multiple",
+    "similarity_score": 94.44
+  },
+  {
+    "test_class": "TestCustomManifestStorage",
+    "test_1": "test_save_manifest_override",
+    "test_2": "test_save_manifest_create",
+    "similarity_score": 94.41
+  },
+  {
+    "test_class": "SeleniumTests",
+    "test_1": "test_select",
+    "test_2": "test_select_multiple",
+    "similarity_score": 94.35
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list",
+    "test_2": "test_autoescape_off",
+    "similarity_score": 94.3
+  },
+  {
+    "test_class": "RadioSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_label_value",
+    "similarity_score": 94.29
+  },
+  {
+    "test_class": "TestUtilsHashPass",
+    "test_1": "test_upgrade",
+    "test_2": "test_no_upgrade_on_incorrect_pass",
+    "similarity_score": 94.22
+  },
+  {
+    "test_class": "ConnectionHealthChecksTests",
+    "test_1": "test_health_checks_enabled_errors_occurred",
+    "test_2": "test_health_checks_disabled",
+    "similarity_score": 94.19
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField",
+    "similarity_score": 94.19
+  },
+  {
+    "test_class": "MiddlewareChecksTests",
+    "test_1": "test_incorrect_order_with_login_required_middleware",
+    "test_2": "test_missing_authentication_with_login_required_middleware",
+    "similarity_score": 94.14
+  },
+  {
+    "test_class": "SelectTest",
+    "test_1": "test_choices_select_outer",
+    "test_2": "test_choices_select_inner",
+    "similarity_score": 94.09
+  },
+  {
+    "test_class": "TimeFieldTest",
+    "test_1": "test_timefield_1",
+    "test_2": "test_timefield_2",
+    "similarity_score": 94.02
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 94.0
+  },
+  {
+    "test_class": "TestUUID",
+    "test_1": "test_uuid7_shift",
+    "test_2": "test_uuid7_shift_duration_field",
+    "similarity_score": 93.96
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 93.91
+  },
+  {
+    "test_class": "LocalizedDateTimeTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 93.9
+  },
+  {
+    "test_class": "DeleteViewTests",
+    "test_1": "test_delete_by_post",
+    "test_2": "test_delete_with_form_as_post",
+    "similarity_score": 93.88
+  },
+  {
+    "test_class": "MultiDatabaseTests",
+    "test_1": "test_read_only_methods_add_view",
+    "test_2": "test_read_only_methods_delete_view",
+    "similarity_score": 93.86
+  },
+  {
+    "test_class": "DeleteViewTests",
+    "test_1": "test_delete_by_post",
+    "test_2": "test_delete_with_special_properties",
+    "similarity_score": 93.8
+  },
+  {
+    "test_class": "IntegrationTests",
+    "test_1": "test_multiple_globs",
+    "test_2": "test_overlapping_globs",
+    "similarity_score": 93.8
+  },
+  {
+    "test_class": "TestGeneralAggregate",
+    "test_1": "test_array_agg_booleanfield_order_by",
+    "test_2": "test_jsonb_agg_booleanfield_order_by",
+    "similarity_score": 93.77
+  },
+  {
+    "test_class": "CheckCacheLocationTest",
+    "test_1": "test_cache_path_matches_media_static_setting",
+    "test_2": "test_cache_path_contains_media_static_setting",
+    "similarity_score": 93.76
+  },
+  {
+    "test_class": "PlainTextReportTests",
+    "test_1": "test_request_and_exception",
+    "test_2": "test_no_request",
+    "similarity_score": 93.72
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_intermediate_m2m",
+    "test_2": "test_intermediate_m2m_extern_fk",
+    "similarity_score": 93.69
+  },
+  {
+    "test_class": "IntegerFieldTest",
+    "test_1": "test_integerfield_3",
+    "test_2": "test_integerfield_4",
+    "similarity_score": 93.68
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested2",
+    "test_2": "test_nested3",
+    "similarity_score": 93.61
+  },
+  {
+    "test_class": "LogoutThenLoginTests",
+    "test_1": "test_default_logout_then_login",
+    "test_2": "test_logout_then_login_with_custom_login",
+    "similarity_score": 93.61
+  },
+  {
+    "test_class": "IntegerFieldTests",
+    "test_1": "test_documented_range",
+    "test_2": "test_backend_range_save",
+    "similarity_score": 93.54
+  },
+  {
+    "test_class": "Jinja2Tests",
+    "test_1": "test_exception_debug_info_min_context",
+    "test_2": "test_exception_debug_info_max_context",
+    "similarity_score": 93.53
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_rename_model_with_m2m",
+    "test_2": "test_rename_m2m_target_model",
+    "similarity_score": 93.53
+  },
+  {
+    "test_class": "PermissionsRequiredDecoratorTest",
+    "test_1": "test_many_permissions_pass",
+    "test_2": "test_many_permissions_in_set_pass",
+    "similarity_score": 93.5
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list",
+    "test_2": "test_nested3",
+    "similarity_score": 93.49
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 93.48
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField",
+    "similarity_score": 93.47
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 93.46
+  },
+  {
+    "test_class": "IsSameDomainTests",
+    "test_1": "test_good",
+    "test_2": "test_bad",
+    "similarity_score": 93.42
+  },
+  {
+    "test_class": "FuzzyTranslationTest",
+    "test_1": "test_nofuzzy_compiling",
+    "test_2": "test_fuzzy_compiling",
+    "similarity_score": 93.34
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField",
+    "similarity_score": 93.31
+  },
+  {
+    "test_class": "BinaryFieldTests",
+    "test_1": "test_filter",
+    "test_2": "test_filter_bytearray",
+    "similarity_score": 93.26
+  },
+  {
+    "test_class": "BinaryFieldTests",
+    "test_1": "test_filter",
+    "test_2": "test_filter_memoryview",
+    "similarity_score": 93.26
+  },
+  {
+    "test_class": "TestIsBoundBehavior",
+    "test_1": "test_no_data_error",
+    "test_2": "test_management_form_invalid_data",
+    "similarity_score": 93.26
+  },
+  {
+    "test_class": "Jinja2Tests",
+    "test_1": "test_exception_debug_info_max_context",
+    "test_2": "test_template_render_nested_error",
+    "similarity_score": 93.24
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 93.21
+  },
+  {
+    "test_class": "AutocompleteJsonViewTests",
+    "test_1": "test_custom_to_field",
+    "test_2": "test_limit_choices_to",
+    "similarity_score": 93.2
+  },
+  {
+    "test_class": "CheckCacheLocationTest",
+    "test_1": "test_cache_path_matches_media_static_setting",
+    "test_2": "test_cache_path_inside_media_static_setting",
+    "similarity_score": 93.16
+  },
+  {
+    "test_class": "CheckCacheLocationTest",
+    "test_1": "test_cache_path_inside_media_static_setting",
+    "test_2": "test_cache_path_contains_media_static_setting",
+    "similarity_score": 93.16
+  },
+  {
+    "test_class": "MemoryStorageTimesTests",
+    "test_1": "test_directory_times_changing_after_file_creation",
+    "test_2": "test_directory_times_changing_after_file_deletion",
+    "similarity_score": 93.14
+  },
+  {
+    "test_class": "TestCollectionVerbosity",
+    "test_1": "test_verbosity_1",
+    "test_2": "test_verbosity_2",
+    "similarity_score": 93.14
+  },
+  {
+    "test_class": "ArchiveIndexViewTests",
+    "test_1": "test_archive_view_custom_sorting",
+    "test_2": "test_archive_view_custom_sorting_dec",
+    "similarity_score": 93.09
+  },
+  {
+    "test_class": "ColumnsTests",
+    "test_1": "test_references_column",
+    "test_2": "test_rename_column_references",
+    "similarity_score": 93.09
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 93.08
+  },
+  {
+    "test_class": "FilePathFieldTests",
+    "test_1": "test_path",
+    "test_2": "test_callable_path",
+    "similarity_score": 93.06
+  },
+  {
+    "test_class": "PrefetchRelatedObjectsTests",
+    "test_1": "test_m2m_forward",
+    "test_2": "test_prefetch_object",
+    "similarity_score": 93.04
+  },
+  {
+    "test_class": "SMTPBackendTests",
+    "test_1": "test_email_authentication_use_settings",
+    "test_2": "test_email_disabled_authentication",
+    "similarity_score": 93.04
+  },
+  {
+    "test_class": "TestSerialization",
+    "test_1": "test_dumping",
+    "test_2": "test_loading",
+    "similarity_score": 93.03
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_explicit_date",
+    "test_2": "test_explicit_date",
+    "similarity_score": 93.0
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sort_list_of_tuples",
+    "test_2": "test_sort_list_of_tuple_like_dicts",
+    "similarity_score": 92.94
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_circle",
+    "test_2": "test_intermediate_m2m_extern_fk",
+    "similarity_score": 92.94
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sort_list_of_tuples",
+    "test_2": "test_sort_list_of_tuple_like_dicts",
+    "similarity_score": 92.92
+  },
+  {
+    "test_class": "TestChildArguments",
+    "test_1": "test_exe_fallback",
+    "test_2": "test_use_exe_when_main_spec",
+    "similarity_score": 92.92
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 92.89
+  },
+  {
+    "test_class": "MultipleHiddenInputTest",
+    "test_1": "test_render_attrs_multiple",
+    "test_2": "test_render_attrs_constructor",
+    "similarity_score": 92.88
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_intermediate_m2m_extern_fk",
+    "test_2": "test_intermediate_m2m_base",
+    "similarity_score": 92.87
+  },
+  {
+    "test_class": "CustomDateTimeInputFormatsTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 92.83
+  },
+  {
+    "test_class": "DetailViewTest",
+    "test_1": "test_detail_by_slug",
+    "test_2": "test_detail_by_custom_slug",
+    "similarity_score": 92.83
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list",
+    "test_2": "test_list_gettext",
+    "similarity_score": 92.83
+  },
+  {
+    "test_class": "SMTPBackendTests",
+    "test_1": "test_email_authentication_use_settings",
+    "test_2": "test_email_authentication_override_settings",
+    "similarity_score": 92.83
+  },
+  {
+    "test_class": "SMTPBackendTests",
+    "test_1": "test_email_authentication_override_settings",
+    "test_2": "test_email_disabled_authentication",
+    "similarity_score": 92.83
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_wrap",
+    "test_2": "test_wrap_lazy_string",
+    "similarity_score": 92.81
+  },
+  {
+    "test_class": "PartialTagTests",
+    "test_1": "test_broken_partial_nesting",
+    "test_2": "test_broken_partial_nesting_mixed",
+    "similarity_score": 92.8
+  },
+  {
+    "test_class": "IntegrationTests",
+    "test_1": "test_glob_recursive",
+    "test_2": "test_multiple_recursive_globs",
+    "similarity_score": 92.79
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 92.79
+  },
+  {
+    "test_class": "LoaderTests",
+    "test_1": "test_loading_squashed_complex_multi_apps",
+    "test_2": "test_loading_squashed_complex_multi_apps_partially_applied",
+    "similarity_score": 92.78
+  },
+  {
+    "test_class": "SplitDateTimeFieldTest",
+    "test_1": "test_splitdatetimefield_1",
+    "test_2": "test_splitdatetimefield_2",
+    "similarity_score": 92.74
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 92.73
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 92.72
+  },
+  {
+    "test_class": "FormsErrorMessagesTestCase",
+    "test_1": "test_integerfield",
+    "test_2": "test_floatfield",
+    "similarity_score": 92.67
+  },
+  {
+    "test_class": "CheckTemplateStringIfInvalidTest",
+    "test_1": "test_string_if_invalid_first_is_string",
+    "test_2": "test_string_if_invalid_not_specified",
+    "similarity_score": 92.66
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_localized_timeField",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 92.63
+  },
+  {
+    "test_class": "NamesToPathTests",
+    "test_1": "test_tenant_id",
+    "test_2": "test_user_tenant_id",
+    "similarity_score": 92.62
+  },
+  {
+    "test_class": "TestSaveLoad",
+    "test_1": "test_dict",
+    "test_2": "test_list",
+    "similarity_score": 92.62
+  },
+  {
+    "test_class": "ExcludedLocaleExtractionTests",
+    "test_1": "test_multiple_locales_excluded",
+    "test_2": "test_one_locale_excluded_with_locale",
+    "similarity_score": 92.61
+  },
+  {
+    "test_class": "ExcludedLocaleExtractionTests",
+    "test_1": "test_multiple_locales_excluded",
+    "test_2": "test_multiple_locales_excluded_with_locale",
+    "similarity_score": 92.61
+  },
+  {
+    "test_class": "UpdateViewTests",
+    "test_1": "test_update_post",
+    "test_2": "test_update_with_special_properties",
+    "similarity_score": 92.59
+  },
+  {
+    "test_class": "ListViewTests",
+    "test_1": "test_paginated_get_page_by_query_string",
+    "test_2": "test_paginated_get_page_by_urlvar",
+    "similarity_score": 92.53
+  },
+  {
+    "test_class": "UrlTagTests",
+    "test_1": "test_url_namespace_no_current_app",
+    "test_2": "test_url_namespace_explicit_current_app",
+    "similarity_score": 92.52
+  },
+  {
+    "test_class": "YearArchiveViewTests",
+    "test_1": "test_year_view_make_object_list",
+    "test_2": "test_year_view_paginated",
+    "similarity_score": 92.5
+  },
+  {
+    "test_class": "MultiDBCreatesuperuserTestCase",
+    "test_1": "test_createsuperuser_command_suggested_username_with_database_option",
+    "test_2": "test_other_create_with_suggested_username",
+    "similarity_score": 92.49
+  },
+  {
+    "test_class": "SelectTest",
+    "test_1": "test_compare_to_str",
+    "test_2": "test_choices_constructor",
+    "similarity_score": 92.49
+  },
+  {
+    "test_class": "TablespacesTests",
+    "test_1": "test_tablespace_for_model",
+    "test_2": "test_tablespace_for_indexed_field",
+    "similarity_score": 92.47
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 92.44
+  },
+  {
+    "test_class": "ExcludedLocaleExtractionTests",
+    "test_1": "test_one_locale_excluded",
+    "test_2": "test_multiple_locales_excluded",
+    "similarity_score": 92.42
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_autoescape_off",
+    "test_2": "test_autoescape_off",
+    "similarity_score": 92.42
+  },
+  {
+    "test_class": "TestFindStatic",
+    "test_1": "test_all_files",
+    "test_2": "test_all_files_less_verbose",
+    "similarity_score": 92.41
+  },
+  {
+    "test_class": "AddIndexConcurrentlyTests",
+    "test_1": "test_add_other_index_type",
+    "test_2": "test_add_with_options",
+    "similarity_score": 92.39
+  },
+  {
+    "test_class": "ConnectionHealthChecksTests",
+    "test_1": "test_health_checks_enabled",
+    "test_2": "test_health_checks_disabled",
+    "similarity_score": 92.39
+  },
+  {
+    "test_class": "TestCollectionVerbosity",
+    "test_1": "test_verbosity_1_with_post_process",
+    "test_2": "test_verbosity_2_with_post_process",
+    "similarity_score": 92.39
+  },
+  {
+    "test_class": "HTTPSitemapTests",
+    "test_1": "test_simple_sitemap_section",
+    "test_2": "test_simple_sitemap",
+    "similarity_score": 92.38
+  },
+  {
+    "test_class": "CustomDateInputFormatsTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 92.37
+  },
+  {
+    "test_class": "MultipleChoiceFieldTest",
+    "test_1": "test_multiplechoicefield_2",
+    "test_2": "test_multiplechoicefield_3",
+    "similarity_score": 92.34
+  },
+  {
+    "test_class": "AllValidTests",
+    "test_1": "test_valid",
+    "test_2": "test_invalid",
+    "similarity_score": 92.29
+  },
+  {
+    "test_class": "TestQuerying",
+    "test_1": "test_key_transform_expression",
+    "test_2": "test_nested_key_transform_expression",
+    "similarity_score": 92.23
+  },
+  {
+    "test_class": "TestQuery",
+    "test_1": "test_simple_query",
+    "test_2": "test_complex_query",
+    "similarity_score": 92.19
+  },
+  {
+    "test_class": "ExceptionReporterTests",
+    "test_1": "test_no_exception",
+    "test_2": "test_request_and_message",
+    "similarity_score": 92.18
+  },
+  {
+    "test_class": "AdminActionsTest",
+    "test_1": "test_popup_template_response_on_change",
+    "test_2": "test_popup_template_response_on_delete",
+    "similarity_score": 92.17
+  },
+  {
+    "test_class": "TableTests",
+    "test_1": "test_references_table",
+    "test_2": "test_rename_table_references",
+    "similarity_score": 92.12
+  },
+  {
+    "test_class": "LoaderTests",
+    "test_1": "test_loading_squashed_complex",
+    "test_2": "test_loading_squashed_erroneous",
+    "similarity_score": 92.11
+  },
+  {
+    "test_class": "ListViewTests",
+    "test_1": "test_paginated_get_page_by_query_string",
+    "test_2": "test_paginated_custom_page_kwarg",
+    "similarity_score": 92.1
+  },
+  {
+    "test_class": "QuerySetSetOperationTests",
+    "test_1": "test_intersection_with_values",
+    "test_2": "test_union_with_values",
+    "similarity_score": 92.1
+  },
+  {
+    "test_class": "MultipleLocaleCompilationTests",
+    "test_1": "test_one_locale",
+    "test_2": "test_multiple_locales",
+    "similarity_score": 92.08
+  },
+  {
+    "test_class": "TestCombinations",
+    "test_1": "test_vector_add",
+    "test_2": "test_vector_add_multi",
+    "similarity_score": 92.06
+  },
+  {
+    "test_class": "ExplicitRelatedQueryNameClashTests",
+    "test_1": "test_fk_to_m2m",
+    "test_2": "test_m2m_to_fk",
+    "similarity_score": 92.01
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_intermediate_m2m",
+    "test_2": "test_intermediate_m2m_base",
+    "similarity_score": 92.0
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_alter_field_add_spatial_index",
+    "test_2": "test_alter_field_with_spatial_index",
+    "similarity_score": 91.97
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_users_by_comments_gt",
+    "test_2": "test_filter_users_by_comments_exact",
+    "similarity_score": 91.96
+  },
+  {
+    "test_class": "RendererTests",
+    "test_1": "test_kwarg_instance",
+    "test_2": "test_kwarg_class",
+    "similarity_score": 91.93
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_one_locale_excluded",
+    "test_2": "test_one_locale_excluded_with_locale",
+    "similarity_score": 91.9
+  },
+  {
+    "test_class": "ExcludedLocaleCompilationTests",
+    "test_1": "test_one_locale_excluded",
+    "test_2": "test_multiple_locales_excluded_with_locale",
+    "similarity_score": 91.9
+  },
+  {
+    "test_class": "TimeFieldTest",
+    "test_1": "test_timefield_2",
+    "test_2": "test_timefield_3",
+    "similarity_score": 91.89
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_timeField",
+    "test_2": "test_localized_timeField",
+    "similarity_score": 91.88
+  },
+  {
+    "test_class": "OptimizerTests",
+    "test_1": "test_create_model_add_field",
+    "test_2": "test_create_model_remove_field",
+    "similarity_score": 91.86
+  },
+  {
+    "test_class": "TestDbSignatureTests",
+    "test_1": "test_custom_test_name",
+    "test_2": "test_custom_test_name_with_test_prefix",
+    "similarity_score": 91.86
+  },
+  {
+    "test_class": "CharFieldTest",
+    "test_1": "test_charfield_4",
+    "test_2": "test_charfield_5",
+    "similarity_score": 91.84
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField",
+    "similarity_score": 91.84
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_timeField",
+    "test_2": "test_timeField_with_inputformat",
+    "similarity_score": 91.83
+  },
+  {
+    "test_class": "SelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_label_value",
+    "similarity_score": 91.81
+  },
+  {
+    "test_class": "OptimizeMigrationTests",
+    "test_1": "test_optimization",
+    "test_2": "test_optimization_no_verbosity",
+    "similarity_score": 91.79
+  },
+  {
+    "test_class": "AutocompleteJsonViewTests",
+    "test_1": "test_success",
+    "test_2": "test_custom_to_field",
+    "similarity_score": 91.77
+  },
+  {
+    "test_class": "IgnoreDirectoryCompilationTests",
+    "test_1": "test_multiple_locale_dirs_ignored",
+    "test_2": "test_ignores_based_on_pattern",
+    "similarity_score": 91.76
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_intermediate_m2m_self",
+    "test_2": "test_intermediate_m2m_extern_fk",
+    "similarity_score": 91.76
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested3",
+    "test_2": "test_autoescape_off",
+    "similarity_score": 91.75
+  },
+  {
+    "test_class": "Jinja2Tests",
+    "test_1": "test_template_render_nested_error",
+    "test_2": "test_template_render_error_nonexistent_source",
+    "similarity_score": 91.75
+  },
+  {
+    "test_class": "TupleLookupsTests",
+    "test_1": "test_exact",
+    "test_2": "test_gt",
+    "similarity_score": 91.73
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_base_to_base_fk",
+    "test_2": "test_base_to_subclass_fk",
+    "similarity_score": 91.72
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_add_deferred_unique_constraint",
+    "test_2": "test_remove_deferred_unique_constraint",
+    "similarity_score": 91.69
+  },
+  {
+    "test_class": "ConcatTests",
+    "test_1": "test_basic",
+    "test_2": "test_many",
+    "similarity_score": 91.67
+  },
+  {
+    "test_class": "TestDbCreationTests",
+    "test_1": "test_migrate_test_setting_false",
+    "test_2": "test_migrate_test_setting_true",
+    "similarity_score": 91.66
+  },
+  {
+    "test_class": "IntegrationTests",
+    "test_1": "test_glob_recursive",
+    "test_2": "test_overlapping_glob_recursive",
+    "similarity_score": 91.64
+  },
+  {
+    "test_class": "BinaryFieldTests",
+    "test_1": "test_filter_bytearray",
+    "test_2": "test_filter_memoryview",
+    "similarity_score": 91.63
+  },
+  {
+    "test_class": "SelectMultipleTest",
+    "test_1": "test_render_selected",
+    "test_2": "test_render_value_label",
+    "similarity_score": 91.63
+  },
+  {
+    "test_class": "ParallelTestSuiteTest",
+    "test_1": "test_handle_add_error_during_test",
+    "test_2": "test_handle_add_failure",
+    "similarity_score": 91.62
+  },
+  {
+    "test_class": "CustomTimeInputFormatsTests",
+    "test_1": "test_timeField",
+    "test_2": "test_localized_timeField",
+    "similarity_score": 91.54
+  },
+  {
+    "test_class": "ExtendsMixedBehaviorTests",
+    "test_1": "test_mixing1",
+    "test_2": "test_mixing2",
+    "similarity_score": 91.54
+  },
+  {
+    "test_class": "LocalizedDateTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 91.54
+  },
+  {
+    "test_class": "WSGIRequestHandlerTestCase",
+    "test_1": "test_no_body_returned_for_head_requests",
+    "test_2": "test_non_zero_content_length_set_head_request",
+    "similarity_score": 91.54
+  },
+  {
+    "test_class": "DebugInvocationTests",
+    "test_1": "test_run_pre_setup_error",
+    "test_2": "test_run_post_teardown_error",
+    "similarity_score": 91.53
+  },
+  {
+    "test_class": "DeprecatePosargsTests",
+    "test_1": "test_detects_extra_positional_arguments",
+    "test_2": "test_avoids_remapping_to_new_keyword_arguments",
+    "similarity_score": 91.53
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_alter_field_reloads_state_on_fk_target_changes",
+    "test_2": "test_rename_field_reloads_state_on_fk_target_changes",
+    "similarity_score": 91.53
+  },
+  {
+    "test_class": "CSPOverrideDecoratorTest",
+    "test_1": "test_csp_override",
+    "test_2": "test_csp_report_only_override",
+    "similarity_score": 91.5
+  },
+  {
+    "test_class": "ArchiveIndexViewTests",
+    "test_1": "test_archive_view",
+    "test_2": "test_archive_view_template",
+    "similarity_score": 91.48
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_nested_fk",
+    "test_2": "test_intermediate_m2m_extern_fk",
+    "similarity_score": 91.46
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 91.45
+  },
+  {
+    "test_class": "DateFunctionTests",
+    "test_1": "test_extract_weekday_func",
+    "test_2": "test_extract_iso_weekday_func",
+    "similarity_score": 91.44
+  },
+  {
+    "test_class": "FallbackTests",
+    "test_1": "test_get_fallback",
+    "test_2": "test_get_fallback_only",
+    "similarity_score": 91.44
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_format",
+    "test_2": "test_invalid",
+    "similarity_score": 91.43
+  },
+  {
+    "test_class": "FlatpageMiddlewareTests",
+    "test_1": "test_view_authenticated_flatpage",
+    "test_2": "test_fallback_authenticated_flatpage",
+    "similarity_score": 91.4
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_two_sided",
+    "test_2": "test_circle",
+    "similarity_score": 91.39
+  },
+  {
+    "test_class": "CustomTimeInputFormatsTests",
+    "test_1": "test_localized_timeField",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 91.36
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 91.34
+  },
+  {
+    "test_class": "UrlizetruncTests",
+    "test_1": "test_urlizetrunc01",
+    "test_2": "test_urlizetrunc02",
+    "similarity_score": 91.34
+  },
+  {
+    "test_class": "CompositePKDeleteTests",
+    "test_1": "test_delete_tenant_by_pk",
+    "test_2": "test_delete_comments_by_user",
+    "similarity_score": 91.29
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_sqlite_datetime_trunc",
+    "test_2": "test_sqlite_time_trunc",
+    "similarity_score": 91.23
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_carriage",
+    "test_2": "test_carriage",
+    "similarity_score": 91.23
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_nested",
+    "test_2": "test_nested2",
+    "similarity_score": 91.23
+  },
+  {
+    "test_class": "OGRGeomTest",
+    "test_1": "test_wkt_and_wkb_output",
+    "test_2": "test_multi_geometries_m_dimension",
+    "similarity_score": 91.21
+  },
+  {
+    "test_class": "QTests",
+    "test_1": "test_deconstruct_or",
+    "test_2": "test_deconstruct_xor",
+    "similarity_score": 91.2
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_localized_timeField",
+    "test_2": "test_timeField_with_inputformat",
+    "similarity_score": 91.18
+  },
+  {
+    "test_class": "ExceptionReporterTests",
+    "test_1": "test_no_exception",
+    "test_2": "test_message_only",
+    "similarity_score": 91.16
+  },
+  {
+    "test_class": "QTests",
+    "test_1": "test_deconstruct_or",
+    "test_2": "test_deconstruct_and",
+    "similarity_score": 91.15
+  },
+  {
+    "test_class": "IgnoreDirectoryCompilationTests",
+    "test_1": "test_one_locale_dir_ignored",
+    "test_2": "test_ignores_based_on_pattern",
+    "similarity_score": 91.13
+  },
+  {
+    "test_class": "RadioSelectTest",
+    "test_1": "test_compare_to_str",
+    "test_2": "test_choices_constructor",
+    "similarity_score": 91.13
+  },
+  {
+    "test_class": "SelectMultipleTest",
+    "test_1": "test_render_multiple_selected",
+    "test_2": "test_render_value_label",
+    "similarity_score": 91.13
+  },
+  {
+    "test_class": "MultiDBCreatesuperuserTestCase",
+    "test_1": "test_other_create_with_suggested_username",
+    "test_2": "test_other_no_suggestion",
+    "similarity_score": 91.12
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list_gettext",
+    "test_2": "test_autoescape_off",
+    "similarity_score": 91.1
+  },
+  {
+    "test_class": "OGRGeomTest",
+    "test_1": "test_difference",
+    "test_2": "test_symdifference",
+    "similarity_score": 91.09
+  },
+  {
+    "test_class": "CheckSecureCSPTests",
+    "test_1": "test_secure_csp_nonce_without_context_processor",
+    "test_2": "test_secure_csp_report_only_nonce_without_context_processor",
+    "similarity_score": 91.08
+  },
+  {
+    "test_class": "DetailViewTest",
+    "test_1": "test_detail_by_pk",
+    "test_2": "test_detail_by_custom_pk",
+    "similarity_score": 91.08
+  },
+  {
+    "test_class": "XViewMiddlewareTest",
+    "test_1": "test_xview_func",
+    "test_2": "test_xview_class",
+    "similarity_score": 91.08
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_dateTimeField_with_inputformat",
+    "similarity_score": 91.06
+  },
+  {
+    "test_class": "SimpleDateTimeFormatTests",
+    "test_1": "test_localized_dateTimeField",
+    "test_2": "test_localized_dateTimeField_with_inputformat",
+    "similarity_score": 91.06
+  },
+  {
+    "test_class": "RadioSelectTest",
+    "test_1": "test_choices_optgroup",
+    "test_2": "test_choices_select_outer",
+    "similarity_score": 91.04
+  },
+  {
+    "test_class": "RadioSelectTest",
+    "test_1": "test_choices_optgroup",
+    "test_2": "test_choices_select_inner",
+    "similarity_score": 91.04
+  },
+  {
+    "test_class": "AuthContextProcessorTests",
+    "test_1": "test_perms_attrs",
+    "test_2": "test_perm_in_perms_attrs",
+    "similarity_score": 91.03
+  },
+  {
+    "test_class": "PermissionsRequiredDecoratorTest",
+    "test_1": "test_many_permissions_pass",
+    "test_2": "test_single_permission_pass",
+    "similarity_score": 91.03
+  },
+  {
+    "test_class": "PermissionsRequiredDecoratorTest",
+    "test_1": "test_many_permissions_in_set_pass",
+    "test_2": "test_single_permission_pass",
+    "similarity_score": 91.03
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_true",
+    "test_2": "test_render_value_true",
+    "similarity_score": 91.02
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_false",
+    "test_2": "test_render_value_false",
+    "similarity_score": 91.02
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_nested_base",
+    "test_2": "test_multiple_nested_bases",
+    "similarity_score": 91.02
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_nested_fk",
+    "test_2": "test_circle",
+    "similarity_score": 91.01
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_localized_dateField_with_inputformat",
+    "similarity_score": 91.0
+  },
+  {
+    "test_class": "SimpleDateFormatTests",
+    "test_1": "test_localized_dateField",
+    "test_2": "test_dateField_with_inputformat",
+    "similarity_score": 90.95
+  },
+  {
+    "test_class": "SimpleTimeFormatTests",
+    "test_1": "test_timeField",
+    "test_2": "test_timeField_with_inputformat",
+    "similarity_score": 90.88
+  },
+  {
+    "test_class": "FormsErrorMessagesTestCase",
+    "test_1": "test_regexfield",
+    "test_2": "test_emailfield",
+    "similarity_score": 90.86
+  },
+  {
+    "test_class": "CharFieldTest",
+    "test_1": "test_charfield_3",
+    "test_2": "test_charfield_4",
+    "similarity_score": 90.85
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_newline",
+    "test_2": "test_newline",
+    "similarity_score": 90.84
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_carriage_newline",
+    "test_2": "test_carriage_newline",
+    "similarity_score": 90.84
+  },
+  {
+    "test_class": "LocalizedTimeTests",
+    "test_1": "test_timeField",
+    "test_2": "test_localized_timeField_with_inputformat",
+    "similarity_score": 90.84
+  },
+  {
+    "test_class": "TablespacesTests",
+    "test_1": "test_tablespace_for_model",
+    "test_2": "test_tablespace_for_many_to_many_field",
+    "similarity_score": 90.83
+  },
+  {
+    "test_class": "SimpleTests",
+    "test_1": "test_save_load_success",
+    "test_2": "test_value_null",
+    "similarity_score": 90.8
+  },
+  {
+    "test_class": "I18NViewTests",
+    "test_1": "test_jsoni18n",
+    "test_2": "test_jsoni18n_with_missing_en_files",
+    "similarity_score": 90.79
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_circle",
+    "test_2": "test_intermediate_m2m",
+    "similarity_score": 90.76
+  },
+  {
+    "test_class": "GetDefaultTests",
+    "test_1": "test_single_engine_configured",
+    "test_2": "test_multiple_engines_configured",
+    "similarity_score": 90.75
+  },
+  {
+    "test_class": "IntegrationTests",
+    "test_1": "test_glob",
+    "test_2": "test_overlapping_globs",
+    "similarity_score": 90.75
+  },
+  {
+    "test_class": "ComboFieldTest",
+    "test_1": "test_combofield_1",
+    "test_2": "test_combofield_2",
+    "similarity_score": 90.74
+  },
+  {
+    "test_class": "YearArchiveViewTests",
+    "test_1": "test_year_view_custom_sort_order",
+    "test_2": "test_year_view_two_custom_sort_orders",
+    "similarity_score": 90.73
+  },
+  {
+    "test_class": "RoundTests",
+    "test_1": "test_float",
+    "test_2": "test_float_with_precision",
+    "similarity_score": 90.72
+  },
+  {
+    "test_class": "JSONNullTests",
+    "test_1": "test_constraint_validation",
+    "test_2": "test_constraint_validation_key_transform",
+    "similarity_score": 90.71
+  },
+  {
+    "test_class": "TimezoneTests",
+    "test_1": "test_fixedoffset_timedelta",
+    "test_2": "test_fixedoffset_negative_timedelta",
+    "similarity_score": 90.71
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_1",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_1",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_2",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.69
+  },
+  {
+    "test_class": "IgnoreDirectoryCompilationTests",
+    "test_1": "test_one_locale_dir_ignored",
+    "test_2": "test_multiple_locale_dirs_ignored",
+    "similarity_score": 90.67
+  },
+  {
+    "test_class": "CustomTimeInputFormatsTests",
+    "test_1": "test_timeField",
+    "test_2": "test_timeField_with_inputformat",
+    "similarity_score": 90.66
+  },
+  {
+    "test_class": "DjangoTemplatesTests",
+    "test_1": "test_autoescape_off",
+    "test_2": "test_autoescape_default",
+    "similarity_score": 90.64
+  },
+  {
+    "test_class": "MultiDatabaseTests",
+    "test_1": "test_read_only_methods_delete_view",
+    "test_2": "test_read_only_methods_add_view",
+    "similarity_score": 90.63
+  },
+  {
+    "test_class": "AutodetectorTests",
+    "test_1": "test_same_app_no_fk_dependency",
+    "test_2": "test_same_app_circular_fk_dependency",
+    "similarity_score": 90.61
+  },
+  {
+    "test_class": "QueryFormatterTests",
+    "test_1": "test_formats_sql_bracket_format_style",
+    "test_2": "test_formats_sql_named_fmt_format_style",
+    "similarity_score": 90.6
+  },
+  {
+    "test_class": "AreaTest",
+    "test_1": "test_addition",
+    "test_2": "test_multiplication",
+    "similarity_score": 90.55
+  },
+  {
+    "test_class": "DeferredGenericRelationTests",
+    "test_1": "test_defer_not_clear_cached_private_relations",
+    "test_2": "test_only_not_clear_cached_private_relations",
+    "similarity_score": 90.54
+  },
+  {
+    "test_class": "TestSerialization",
+    "test_1": "test_dumping",
+    "test_2": "test_loading",
+    "similarity_score": 90.54
+  },
+  {
+    "test_class": "QuestionerHelperMethodsTests",
+    "test_1": "test_questioner_default_timedelta",
+    "test_2": "test_questioner_default_no_user_entry",
+    "similarity_score": 90.53
+  },
+  {
+    "test_class": "DatabaseCreationTests",
+    "test_1": "test_create_test_db",
+    "test_2": "test_create_test_user",
+    "similarity_score": 90.51
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_nested_fk",
+    "test_2": "test_intermediate_m2m_base",
+    "similarity_score": 90.48
+  },
+  {
+    "test_class": "TestSimpleFormField",
+    "test_1": "test_has_changed",
+    "test_2": "test_has_changed_empty",
+    "similarity_score": 90.47
+  },
+  {
+    "test_class": "TimezoneTests",
+    "test_1": "test_override",
+    "test_2": "test_override_decorator",
+    "similarity_score": 90.47
+  },
+  {
+    "test_class": "DetailViewTest",
+    "test_1": "test_detail_by_pk_ignore_slug",
+    "test_2": "test_detail_by_pk_and_slug",
+    "similarity_score": 90.46
+  },
+  {
+    "test_class": "IndexTestMixin",
+    "test_1": "test_deconstruction_no_customization",
+    "test_2": "test_deconstruction_with_expressions_no_customization",
+    "similarity_score": 90.45
+  },
+  {
+    "test_class": "OperationTests",
+    "test_1": "test_alter_field_pk_mti_fk",
+    "test_2": "test_alter_field_pk_mti_and_fk_to_base",
+    "similarity_score": 90.44
+  },
+  {
+    "test_class": "FormsErrorMessagesTestCase",
+    "test_1": "test_charfield",
+    "test_2": "test_emailfield",
+    "similarity_score": 90.43
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_unknown",
+    "similarity_score": 90.42
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_unknown",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.42
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_unknown",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.42
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_unknown",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.42
+  },
+  {
+    "test_class": "CheckboxSelectMultipleTest",
+    "test_1": "test_nested_choices",
+    "test_2": "test_nested_choices_without_id",
+    "similarity_score": 90.38
+  },
+  {
+    "test_class": "DetailViewTest",
+    "test_1": "test_detail_by_pk",
+    "test_2": "test_template_name",
+    "similarity_score": 90.38
+  },
+  {
+    "test_class": "CspNonceTagWithMediaTests",
+    "test_1": "test_without_csp_nonce_in_context",
+    "test_2": "test_with_csp_nonce_none",
+    "similarity_score": 90.37
+  },
+  {
+    "test_class": "MultiDBCreatesuperuserTestCase",
+    "test_1": "test_createsuperuser_command_suggested_username_with_database_option",
+    "test_2": "test_other_no_suggestion",
+    "similarity_score": 90.36
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_intermediate_m2m_self",
+    "test_2": "test_intermediate_m2m",
+    "similarity_score": 90.35
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list",
+    "test_2": "test_nested2",
+    "similarity_score": 90.33
+  },
+  {
+    "test_class": "FunctionTests",
+    "test_1": "test_list_gettext",
+    "test_2": "test_nested3",
+    "similarity_score": 90.32
+  },
+  {
+    "test_class": "TestValidation",
+    "test_1": "test_with_size",
+    "test_2": "test_with_size_singular",
+    "similarity_score": 90.32
+  },
+  {
+    "test_class": "CompositePKFilterTests",
+    "test_1": "test_filter_users_by_comments_lte",
+    "test_2": "test_filter_users_by_comments_gte",
+    "similarity_score": 90.29
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_true",
+    "test_2": "test_render_none",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_true",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_true",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_true",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_false",
+    "test_2": "test_render_none",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_false",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_false",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_false",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_true",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_none",
+    "test_2": "test_render_value_false",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_true",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_true",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_true",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_false",
+    "test_2": "test_render_value_1",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_false",
+    "test_2": "test_render_value_2",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "NullBooleanSelectTest",
+    "test_1": "test_render_value_false",
+    "test_2": "test_render_value_3",
+    "similarity_score": 90.28
+  },
+  {
+    "test_class": "RestartWithReloaderTests",
+    "test_1": "test_propagates_unbuffered_from_parent",
+    "test_2": "test_does_not_propagate_unbuffered_from_parent",
+    "similarity_score": 90.27
+  },
+  {
+    "test_class": "PasswordResetTest",
+    "test_1": "test_poisoned_http_host",
+    "test_2": "test_poisoned_http_host_admin_site",
+    "similarity_score": 90.26
+  },
+  {
+    "test_class": "SimpleTimeFormatTests",
+    "test_1": "test_timeField",
+    "test_2": "test_localized_timeField",
+    "similarity_score": 90.19
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_two_sided",
+    "test_2": "test_intermediate_m2m_extern_fk",
+    "similarity_score": 90.16
+  },
+  {
+    "test_class": "CSPBuildPolicyTest",
+    "test_1": "test_config_with_nonce",
+    "test_2": "test_config_with_multiple_nonces",
+    "similarity_score": 90.12
+  },
+  {
+    "test_class": "FindPartialSourceTests",
+    "test_1": "test_find_partial_source_supports_nested_partials_and_named_end_tags",
+    "test_2": "test_find_partial_source_supports_nested_partials_and_mixed_end_tags_2",
+    "similarity_score": 90.11
+  },
+  {
+    "test_class": "CSPMiddlewareTest",
+    "test_1": "test_csp_basic",
+    "test_2": "test_csp_report_only_basic",
+    "similarity_score": 90.09
+  },
+  {
+    "test_class": "ListViewTests",
+    "test_1": "test_paginated_get_page_by_urlvar",
+    "test_2": "test_paginated_custom_page_kwarg",
+    "similarity_score": 90.06
+  },
+  {
+    "test_class": "RelatedModelsTests",
+    "test_1": "test_circle",
+    "test_2": "test_intermediate_m2m_self",
+    "similarity_score": 90.06
+  },
+  {
+    "test_class": "TwoImageFieldTests",
+    "test_1": "test_constructor",
+    "test_2": "test_field_save_and_delete_methods",
+    "similarity_score": 90.06
+  },
+  {
+    "test_class": "GitHubLinkTests",
+    "test_1": "test_github_linkcode_resolve_link_to_object",
+    "test_2": "test_github_linkcode_resolve_link_to_class_older_version",
+    "similarity_score": 90.0
+  }
+]
