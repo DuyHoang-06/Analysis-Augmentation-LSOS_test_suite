@@ -73,7 +73,8 @@ While conventional industry-standard **Line Coverage** metrics reported a decept
 
 <p align="center">
   <img src="call_graph_mapping.png" alt="Call Graph Mapping" width="80%">
-  <br><i>Global Test-to-Code Call Graph mapping inter-procedural dependencies to uncover logical hidden gaps</i>
+  <br><i>Static Analysis Graph Using Net-
+workX Library</i>
 </p>
 
 Following the execution of our context-aware LLM generation engine (`llm_base_augmentation.py` or equivalent test augmentation suite):
