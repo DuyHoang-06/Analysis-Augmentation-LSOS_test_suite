@@ -4,13 +4,13 @@
   "total_gaps": 9,
   "untested_functions": [
     "get_form_class",
-    "get_success_url_allowed_hosts",
-    "dispatch",
-    "form_valid",
+    "get_context_data",
     "get_redirect_url",
     "get_user",
-    "get_form_kwargs",
     "get_success_url",
-    "get_context_data"
+    "get_form_kwargs",
+    "dispatch",
+    "form_valid",
+    "get_success_url_allowed_hosts"
   ]
 }

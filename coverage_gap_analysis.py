@@ -98,9 +98,9 @@ print("\nSaved coverage gaps list to file: 'coverage_gaps_report.json'")
 
 print(f"\nDrawing graph with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges...")
 
-plt.figure(figsize=(15, 10))
+plt.figure(figsize=(20, 20))
 colors = [node[1]['color'] if 'color' in node[1] else 'gray' for node in G.nodes(data=True)]
-pos = nx.spring_layout(G, k=0.5, iterations=50)
+pos = nx.spring_layout(G, k=3.0, iterations=450, seed=42)
 
 nx.draw(G, pos, with_labels=True, node_color=colors, 
         node_size=2000, font_size=8, font_weight='bold', 
