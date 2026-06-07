@@ -39,6 +39,7 @@ The hybrid automated framework operates through a sequential four-stage pipeline
 ```text
 ├── django_repo/                   # Clone of the official target system repository (Django Framework)
 ├── graphs/                        # Output directory for individual test-class subgraphs generated as visual nodes
+├── llm_generated_test/            # Target subdirectory isolating independent, LLM-augmented test files synthesized to resolve coverage gaps
 ├── all_grouped_tests.json         # Unified metadata catalog containing AST-extracted test signatures grouped by Class
 ├── build_all_graph.py             # Graph construction engine utilizing NetworkX (DiGraph) to render individual class test structures
 ├── call_graph_mapping.png         # Global dynamic call-graph visualization illustrating inter-procedural test execution paths
@@ -48,7 +49,9 @@ The hybrid automated framework operates through a sequential four-stage pipeline
 ├── final_refactored_tests.json    # Target optimization output storing parameterized code structural representations
 ├── gen_all_test.py                # Orchestration controller automating full-directory Django source repository discovery and ingestion
 ├── gen_duplicate.py               # Statistical evaluation module calculating test-to-test cross-similarities using Cosine Distance
-├── llm_base_augmentation.py       # Context-aware automation pipeline orchestrating LLMs (gpt-4.1-mini) to rewrite clones via self.subTest()
+├── llm_base_augmentation.py       # Context-aware automation pipeline orchestrating LLMs to rewrite clones via self.subTest()
+├── llm_detected.txt               # Prompt registry containing the structured, context-enriched instruction templates dispatched to ChatGPT
+├── overall_architecture.jpg       # High-level system architecture diagram illustrating the end-to-end execution framework pipeline
 └── README.md                      # Comprehensive academic project documentation file
 ```
 
