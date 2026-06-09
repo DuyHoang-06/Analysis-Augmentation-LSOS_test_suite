@@ -52,7 +52,8 @@ The hybrid automated framework operates through a sequential four-stage pipeline
 ├── llm_base_augmentation.py       # Context-aware automation pipeline orchestrating LLMs to rewrite clones via self.subTest()
 ├── llm_detected.txt               # Prompt registry containing the structured, context-enriched instruction templates dispatched to ChatGPT
 ├── overall_architecture.jpg       # High-level system architecture diagram illustrating the end-to-end execution framework pipeline
-└── README.md                      # Comprehensive academic project documentation file
+├── README.md                      # Comprehensive academic project documentation file
+└── run_all.py                     # Automation driver script executing the end-to-end local pipeline and recording computational time benchmarks
 ```
 
 ---
